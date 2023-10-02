@@ -22,7 +22,7 @@ header {
 
 }
 
-.button-header {
+.button{
     border-radius: 50px;
     background: #665AE1;
     width: 130px;
@@ -39,7 +39,7 @@ header {
 
 }
 
-.img-logo {
+img {
 
     width: 560px;
     height: 500px;
@@ -95,12 +95,46 @@ p {
     color:  #000000;
     margin-top: 10px;
     
-    
+}
+
+@media screen and (max-width:950px) {
+
+section {
+width: 100%;
+height: 50%;
+padding: 0;
+margin: 0;
+}
+img {
+    position: static;
+    width: 390px;
+}
+
+header {
+    display: none;
+}
+p {
+    display: none;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: normal;
+    width: auto;
+    margin-top: 24px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    width: auto;
+}
+.button-header2 {
+    margin: 0 auto;
+    display: block;
+}
 
 
-
-
-    
 
 
 
